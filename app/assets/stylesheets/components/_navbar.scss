@@ -30,6 +30,7 @@ nav{
   display: flex;
   justify-content: space-around;
   width: 60%;
+  z-index: 50;
 }
 
 .nav-links li{
@@ -91,6 +92,7 @@ nav{
 
 .nav-active{
   transform: translateX(0%);
+  z-index: 50;
 }
 
 @keyframes navLinkFade{
